@@ -29,7 +29,7 @@ import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
 
-abstract class ImagePickerUtility : AppCompatActivity() {
+ open class ImagePickerUtility : AppCompatActivity() {
 
     val REQUEST_CODE = 100
     private val GALLERY_REQUEST_CODE = 101
@@ -244,5 +244,5 @@ abstract class ImagePickerUtility : AppCompatActivity() {
         return ""
     }
 
-    abstract fun selectedImage(imagePath: String?)
+    open fun selectedImage(imagePath: String?){}
 }
