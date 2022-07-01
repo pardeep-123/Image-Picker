@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alert">Alert</string>
+    <string name="permissionRequired">Permission Required</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="openSettings">Open Settings</string>
+</resources>
